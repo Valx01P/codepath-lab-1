@@ -33,7 +33,7 @@ const renderGifts = async () => {
 
                 // Create the price point element
                 const pricePoint = document.createElement('p')
-                pricePoint.textContent = `Price: ${gift.pricePoint}`
+                pricePoint.textContent = `Price: ${gift.pricepoint}`
 
                 // Create the audience element
                 const audience = document.createElement('p')

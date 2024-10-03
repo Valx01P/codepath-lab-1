@@ -23,9 +23,9 @@ const renderGift = async () => {
             document.getElementById('image').src = gift.image
             document.getElementById('image').alt = gift.name
             document.getElementById('name').textContent = gift.name
-            document.getElementById('submittedBy').textContent = `Submitted by: ${gift.submittedBy}`
-            document.getElementById('submittedOn').textContent = `Submitted on: ${gift.submittedOn}`
-            document.getElementById('pricePoint').textContent = `Price: ${gift.pricePoint}`
+            document.getElementById('submittedBy').textContent = `Submitted by: ${gift.submittedby}`
+            document.getElementById('submittedOn').textContent = `Submitted on: ${gift.submittedon.slice(0, 10)}`
+            document.getElementById('pricePoint').textContent = `Price: ${gift.pricepoint}`
             document.getElementById('audience').textContent = `Audience: ${gift.audience}`
             document.getElementById('description').textContent = gift.description
 

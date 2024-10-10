@@ -1,0 +1,13 @@
+.env
+logs
+*.log
+
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.idea
+
+**/node_modules
+**/dist
